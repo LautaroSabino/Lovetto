@@ -24,8 +24,28 @@ body{
 
 .logo{
     width: 150px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 50%;
 }
 
 li{
     margin: 30px;
+}
+
+
+.header{
+    background-image: url(../public/Punto\ Recto\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: antiquewhite;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.quienesSomos{
+    background-color: #f2e9e4;
+}
+
+.productos{
+    background-color: #9a8c98;
 }
