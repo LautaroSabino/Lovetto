@@ -53,6 +53,12 @@ li{
     display: flex;
     flex-direction: column;
     align-content: center;
+    object-fit: cover;
+}
+
+.header:hover{
+    padding: 50px;
+    transition: .3s;
 }
 
 /*------------------------MAIN......................................*/
@@ -64,7 +70,8 @@ li{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+
 }
 
 .nuestroObjetivo{
@@ -76,5 +83,32 @@ li{
     
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 20px;
+
+
+}
+
+.gridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #887d7b;
+    border-radius: 4px;
+    border: 4px solid color#0e0e16;
+    transition: transform .3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gridItem:hover{
+    filter: opacity(.9);
+    transform: scale(1.04);
+}
 
 
