@@ -12,10 +12,10 @@
 }
 
 body{
-    background-color: #22223b;
+    background-color: #24223b;
     margin: 0px;
     padding: 0px;
-    color: #f2e9e4
+    color: #f2e4e9
 }
 .contain {
     width: 100vw;
@@ -32,6 +32,12 @@ body{
 
 li{
     margin: 20px;
+    display: flex; 
+    align-items: center;
+}
+
+li a{
+    margin: 10px;
 }
 
 .logoHeader{
@@ -79,7 +85,7 @@ li{
     font-weight: 900;
     padding: 10px;
     outline: #f2e9e4 solid 1.5px;
-    margin: 20px 0;
+    margin: 30px 0;
     
 }
 
@@ -87,7 +93,7 @@ li{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: minmax(300px, auto);
-    gap: 20px;
+    gap: 5px;
 
 
 }
@@ -108,7 +114,17 @@ li{
 
 .gridItem:hover{
     filter: opacity(.9);
-    transform: scale(1.04);
+    transform: scale(1.64);
+}
+
+.vertical{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
